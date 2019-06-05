@@ -1,15 +1,27 @@
 .header {
-    background: #ffffff
-    border:  #cccccc
+    background: #ffffff;
+    border-style: none none solid ;
+    border-color:  #cccccc ;
 }
 body {
     background-color: white;
+    border-style: solid ;
+    border-color: #dddddd
+  }
+  h0 {
+    font-size: 32px ;
+    color: #ffffff ;
+    background-color: #4aaaa5
   }
   h1 {
     color:#4aaaa5;
   }
   p1 {
     color:#777777;
+  }  
+  p2 {
+    color:#777777;
+    text-align: right
   }
  
   
