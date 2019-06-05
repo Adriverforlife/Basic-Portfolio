@@ -2,6 +2,11 @@
     background: #ffffff;
     border-style: none none solid ;
     border-color:  #cccccc ;
+    float: left;
+}
+header-right {
+  float: right;
+  
 }
 body {
     background-color: white;
