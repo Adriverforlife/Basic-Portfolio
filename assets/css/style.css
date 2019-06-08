@@ -1,19 +1,17 @@
-* {
-max-width: 960px;
-margin: auto;
 
 p {
-  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 h{
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
-}
 
-header {
+
+.header {
   background: #ffffff;
   border-style: none none solid ;
+  border-width: 2px;
   border-color:  #cccccc ;
   width: 100%;
   overflow: auto;
@@ -24,58 +22,53 @@ header {
   padding: 5px;
   background: #4aaaa5;
   width: 25%;
+  margin: auto;
+  text-align: center;
   float: left;
 }
 .header-right {
   float: right;
   text-decoration: none;
+
+  background: #ffffff;
   
 }
 a:link {
   text-decoration: none;
 }
 body {
-    background-color: white;
-    border-style: solid ;
-    border-color: #dddddd
+    
+background-image: url(../images/white-waves.png);
+background-repeat: repeat;
+
   
   }
+.content {
+  max-width: 960px;
+  margin: auto;
+  border-style: solid ;
+  border-color: #dddddd;
+  border-width: 2px;
+  background-color: #ffffff;
+  
+}
   h0 {
     font-size: 32px ;
     color: #ffffff ;
-    background-color: #4aaaa5
+ 
   }
   h1 {
     color:#4aaaa5;
+  
   }
   h2 {
     text-decoration: none;
   }
-  p1 {
-    color:#777777;
-  }  
+
   p2 {
-    color:#777777;
+    color:#ffffff;
     text-align: right
+    text-de
   }
  
   
-.main {
-    text-align: center;
-}
-.imp {
-        font-weight: bold;
-}
-.ilt {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-.orange {
-            color: orange;
-}
-.styledFont {
-    color: green;
-}
-img {
-    border: 10px solid orange;
-    border-radius: 4px;
-  }
