@@ -97,7 +97,6 @@ body {
     bottom: 0;
     border-color: #4aaaa5;
     border-style: solid none none;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
-    clear: both;
   }
